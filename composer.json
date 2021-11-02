@@ -17,9 +17,11 @@
         }
     },
     "extra":{
-        "providers": [
-            "Bonevian\\Consume_Api\\consuming_api"
-        ]
+        "laravel":{
+            "providers": [
+                "Bonevian\\Consume_Api\\consuming_api"
+            ]
+        }
     }
 
 }
