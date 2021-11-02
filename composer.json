@@ -1,0 +1,19 @@
+{
+    "name": "bonevian/consume-api",
+    "description": "This is used to consume api from a specific public API",
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MuhammadNazhimMaulana",
+            "email": "nazhimmaulanamuhammad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bonevian\\Consume_Api\\" : "src/"
+        }
+    }
+}
