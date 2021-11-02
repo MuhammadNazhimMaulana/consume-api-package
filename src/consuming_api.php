@@ -31,7 +31,7 @@ class consuming_api extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'consume_api');
 
         $this->publishes([
-            __DIR__ . '/views' => resorces_path('views/vendor/api')
+            __DIR__.'/views' => resource_path('views/vendor/consume_api'),
         ]);
     }
 }
