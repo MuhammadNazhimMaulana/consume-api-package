@@ -15,5 +15,11 @@
         "psr-4": {
             "Bonevian\\Consume_Api\\" : "src/"
         }
+    },
+    "extra":{
+        "providers": [
+            "Bonevian\\Consume_Api\\consuming_api"
+        ]
     }
+
 }
