@@ -29,5 +29,9 @@ class consuming_api extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         
         $this->loadViewsFrom(__DIR__.'/views', 'consume_api');
+
+        $this->publishes([
+            __DIR__ . '/views' => resorces_path('views/vendor/api')
+        ]);
     }
 }
